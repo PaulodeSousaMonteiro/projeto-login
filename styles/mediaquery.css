@@ -9,13 +9,14 @@ Typical Device Breakpoints
     Grandes telas: acima de 1280px
 */
 
-@media screen and (min-width: 768px)  and (max-width: 1024px){
+@media screen and (min-width: 768px)  and (max-width: 1024px){ /* COFNIGURAÇÃO PARA TABLET */
     body{
         background-image: linear-gradient(to top, #1A1A2E, #4A148C);
     }
 
     section#login {
         width: 80vw;
+        height: 280px;
     }
 
     section#login > div#imagem {
@@ -30,13 +31,14 @@ Typical Device Breakpoints
     } 
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) { /* CONFIGURAÇÃO PARA TELAS GRANDES */
     body{
         background-image: linear-gradient(to top, #1A1A2E, #4A148C);
     }
 
     section#login{
         width: 950px;
+        height: 350px;
     }
     
     section#login > div#imagem {
@@ -55,6 +57,7 @@ Typical Device Breakpoints
     }
 
     div#formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
+        margin: 10px 0px;
     }
 }
